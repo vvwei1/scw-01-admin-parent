@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scw-02-admin-webui" />
+        <module name="scw-05-common-reverse" />
+        <module name="scw-05-common-util" />
+        <module name="scw03-admin-component" />
+        <module name="scw04-admin-entity" />
+        <module name="scw07-member-eureka" />
+        <module name="scw09-member-entity" />
+        <module name="scw09-member-mysql-provider" />
+        <module name="scw10-member-redis-provider" />
+        <module name="scw11-member-authentication-consumer" />
+        <module name="scw12-member-project-consumer" />
+        <module name="scw13-member-order-consumer" />
+        <module name="scw14-member-pay-consumer" />
+        <module name="scw15-member-zuul" />
+        <module name="scw16-member-api" />
+        <module name="scw17-spring-session-a" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro2springsecurity" target="1.8" />
+      <module name="scw11member-authentication-consumer" target="1.8" />
+      <module name="scw12member-project-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="scw03-admin-component" options="" />
+      <module name="scw04-admin-entity" options="" />
+      <module name="scw17-spring-session-a" options="-parameters" />
+    </option>
+  </component>
+</project>
